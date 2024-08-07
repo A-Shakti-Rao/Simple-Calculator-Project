@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const display = document.getElementById('diplay'); // Corrected the ID to match the HTML
+    const display = document.getElementById('diplay'); 
     const buttons = Array.from(document.querySelectorAll('.button, .signs, .equal'));
     let currentInput = '';
 
